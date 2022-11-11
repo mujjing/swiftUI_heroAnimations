@@ -9,12 +9,36 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack(spacing: 30) {
+                HStack(alignment: .bottom) {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Monday 4 April")
+                            .font(.callout)
+                            .foregroundColor(.gray)
+                        
+                        Text("Today")
+                            .font(.largeTitle.bold())
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "person.circle.fill")
+                            .font(.largeTitle)
+                    }
+                }
+                .padding(.horizontal)
+            }
+            .padding(.vertical)
+        }
     }
 }
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
         Home()
+            .preferredColorScheme(.dark)
     }
 }
