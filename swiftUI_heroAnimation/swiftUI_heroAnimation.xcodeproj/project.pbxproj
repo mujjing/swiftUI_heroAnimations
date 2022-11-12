@@ -13,6 +13,8 @@
 		DB7D0388291D3CC5001694D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7D0387291D3CC5001694D3 /* Preview Assets.xcassets */; };
 		DB7D0391291D3D72001694D3 /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7D0390291D3D72001694D3 /* Today.swift */; };
 		DB7D0393291D3D7D001694D3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7D0392291D3D7D001694D3 /* Home.swift */; };
+		DBFB8CF2291FD4A5004748CE /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB8CF1291FD4A5004748CE /* CustomCorner.swift */; };
+		DBFB8CF5291FE275004748CE /* View+safeArea .swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB8CF4291FE274004748CE /* View+safeArea .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		DB7D0387291D3CC5001694D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB7D0390291D3D72001694D3 /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
 		DB7D0392291D3D7D001694D3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DBFB8CF1291FD4A5004748CE /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		DBFB8CF4291FE274004748CE /* View+safeArea .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+safeArea .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		DB7D037F291D3CC3001694D3 /* swiftUI_heroAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				DBFB8CF3291FE262004748CE /* Extension */,
 				DB7D038F291D3D62001694D3 /* Model */,
 				DB7D038E291D3D5A001694D3 /* View */,
 				DB7D0380291D3CC3001694D3 /* swiftUI_heroAnimationApp.swift */,
@@ -77,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				DB7D0392291D3D7D001694D3 /* Home.swift */,
+				DBFB8CF1291FD4A5004748CE /* CustomCorner.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +93,14 @@
 				DB7D0390291D3D72001694D3 /* Today.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DBFB8CF3291FE262004748CE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DBFB8CF4291FE274004748CE /* View+safeArea .swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7D0383291D3CC3001694D3 /* ContentView.swift in Sources */,
+				DBFB8CF2291FD4A5004748CE /* CustomCorner.swift in Sources */,
 				DB7D0391291D3D72001694D3 /* Today.swift in Sources */,
+				DBFB8CF5291FE275004748CE /* View+safeArea .swift in Sources */,
 				DB7D0393291D3D7D001694D3 /* Home.swift in Sources */,
 				DB7D0381291D3CC3001694D3 /* swiftUI_heroAnimationApp.swift in Sources */,
 			);
